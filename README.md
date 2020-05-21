@@ -23,6 +23,8 @@ HTML
 - 介紹
 - CSS display
 - https://zh-tw.learnlayout.com/
+- CSS 權重 [link](https://muki.tw/tech/css-specificity-document/)
+- 我的學習路 [link](https://www.freecodecamp.org/news/got-a-react-developer-job-during-my-100dayscodechallenge-f455175d3776/)
 
 HTML Play Ground
 
