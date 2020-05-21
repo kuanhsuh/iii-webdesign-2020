@@ -70,13 +70,21 @@ Web Design 101
 ---
 
 [] 元件開發
+
 [] Component - Navbar
+
 [] Component - Header
+
 [] Component - Features X
+
 [] Component - Form X
+
 [] Component - Footer X
+
 [] Layout
+
 Grid Layout
+
 Container
 
 ### Day 3
@@ -84,10 +92,16 @@ Container
 ---
 
 [] RWD
-[] 框架 - Bootstrap - Tailwind - UI Library vs Functional CSS - Tailwind Demo - Boostrap Demo
-[] 進階 CSS
+[] 框架
 
-- SASS 練習
-  [] 如何練習
-  [] 累積作品
-  [] 接案作品
+- Bootstrap
+- Tailwind
+- UI Library vs Functional CSS
+- Tailwind Demo - Boostrap Demo
+  [] 進階 CSS
+
+[] SASS 練習
+
+- 如何練習
+- 累積作品
+- 接案作品
