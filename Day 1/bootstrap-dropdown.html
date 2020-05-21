@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      /* border: 1px solid #222; */
+    }
+
+    body {
+      padding: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown-menu {
+      position: absolute;
+      border: 1px solid #ccc;
+      display: none;
+      top: 30px;
+      left: 0px;
+    }
+
+    .dropdown:hover .dropdown-menu {
+      display: inline-block;
+    }
+
+    a {
+      display: block;
+      padding: 8px;
+      text-decoration: none;
+      color: #222;
+    }
+
+    button {
+      margin-bottom: 10px;
+      transition: all 0.5s;
+      background: #12cbc4;
+      color: #fff;
+      border-radius: 3px;
+      padding: 8px 16px;
+      border: none;
+    }
+
+    button:hover {
+      background: #1289a7;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="dropdown">
+    <button>
+      Send
+    </button>
+    <div class="dropdown-menu">
+      <a href="#">Item One</a>
+      <a href="#">Item Two</a>
+      <a href="#">Item Three</a>
+    </div>
+  </div>
+</body>
+
+</html>
