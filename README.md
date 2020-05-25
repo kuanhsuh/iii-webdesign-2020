@@ -97,6 +97,8 @@ https://www.svgbackgrounds.com/
 
 https://www.notion.so/c4de7a07aa524c458040ad6c3d4766cd
 
+logo - https://tailwindui.com/img/logos/workflow-mark-on-white.svg
+
 ### Day 3
 
 ---
