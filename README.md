@@ -69,23 +69,33 @@ Web Design 101
 
 ---
 
+[] Selectors
+[] Semantic HTML
+https://ithelp.ithome.com.tw/articles/10190737
+[] Make utility class
+
 [] 元件開發
 
-[] Component - Navbar
+[] Grid Layout
 
+- 12 Grid Layout
+- Container/Row/Column
+- Flex based/Float Based -advantages
+  - http://flexboxgrid.com/
+  - https://getbootstrap.com/docs/4.0/layout/grid/
+  - file:///Users/dannyhuang/Desktop/III-CSS/bb-hotel/src/style.css
+
+[] Component - Navbar
+https://www.svgbackgrounds.com/
 [] Component - Header
 
-[] Component - Features X
+[] Component - Features
 
-[] Component - Form X
+[] Component - Form
 
-[] Component - Footer X
+[] Component - Footer
 
-[] Layout
-
-Grid Layout
-
-Container
+https://www.notion.so/c4de7a07aa524c458040ad6c3d4766cd
 
 ### Day 3
 

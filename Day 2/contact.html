@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+
+  <link rel="stylesheet" href="./grid.css">
+  <link rel="stylesheet" href="./utilities.css">
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Helvetica, sans-serif;
+      font-size: 16px;
+      color: #2c3e50;
+    }
+
+    .contact h2 {
+      text-align: center;
+      font-size: 3rem;
+    }
+
+    .contact p {
+      text-align: center;
+      max-width: 45rem;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.5;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-control {
+      padding: 1rem 0.75rem;
+      width: 100%;
+      border-radius: 4px;
+      background: #fff;
+      border: 1px solid #ced4da
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.8rem;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    .custom-select {
+      display: inline-block;
+      padding: 10px 10px;
+      width: 100%;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+      background-repeat: no-repeat;
+      background-position-x: 100%;
+      background-position-y: 5px;
+      /* https://stackoverflow.com/questions/14218307/select-arrow-style-change */
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Contact -->
+  <section class="contact pt-4 pb-4">
+    <div class="container">
+      <h2 class="mb-2">Contact Sales</h2>
+      <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi incidunt officiis accusamus
+        provident sed
+        asperiores amet quo libero consectetur sequi itaque .</p>
+      <form action="">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="">First Name</label>
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="">Last Name</label>
+              <input type="text" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="">Company</label>
+              <input type="text" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="">Email</label>
+              <input type="email" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="">Country</label>
+              <select name="country" class="custom-select">
+                <option name="" id="">USA</option>
+                <option name="" id="">Canada</option>
+                <option name="" id="">Mexico</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="">Message</label>
+              <textarea class="form-control"></textarea>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>

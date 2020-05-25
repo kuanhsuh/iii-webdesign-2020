@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style lang="">
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      padding-top: 50px;
+    }
+
+    .container {
+      width: 960px;
+      margin: 0 auto;
+    }
+
+    @media only screen and (min-width: 769px) and (max-width: 992px) {
+      .container {
+        width: 750px;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      .container {
+        width: 90%;
+      }
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -0.5rem;
+    }
+
+    [class^="col-"] {
+      padding: 0 0.5rem;
+    }
+
+    .col-md-4 {
+      width: 33.33%;
+    }
+
+    .col-md-3 {
+      width: 25%;
+    }
+
+    .col-md-6 {
+      width: 50%;
+    }
+
+    @media only screen and (max-width: 768px) {
+      [class^="col-"] {
+        width: 100%
+      }
+    }
+
+
+    .box {
+      background: #22a6b3;
+      height: 80px;
+    }
+
+    .mt-4 {
+      margin-top: 1rem;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="box"></div>
+      </div>
+      <div class="col-md-4">
+        <div class="box"></div>
+      </div>
+      <div class="col-md-4">
+        <div class="box"></div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-3">
+        <div class="box"></div>
+      </div>
+      <div class="col-md-3">
+        <div class="box"></div>
+      </div>
+      <div class="col-md-3">
+        <div class="box"></div>
+      </div>
+      <div class="col-md-3">
+        <div class="box"></div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <div class="box"></div>
+      </div>
+      <div class="col-md-3">
+        <div class="box"></div>
+      </div>
+      <div class="col-md-3">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
