@@ -70,8 +70,11 @@ Web Design 101
 ---
 
 [] Selectors
+
 [] Semantic HTML
-https://ithelp.ithome.com.tw/articles/10190737
+
+- https://ithelp.ithome.com.tw/articles/10190737
+
 [] Make utility class
 
 [] 元件開發
@@ -86,12 +89,14 @@ https://ithelp.ithome.com.tw/articles/10190737
   - file:///Users/dannyhuang/Desktop/III-CSS/bb-hotel/src/style.css
 
 [] Component - Navbar
-https://www.svgbackgrounds.com/
+
+- https://www.svgbackgrounds.com/
+
 [] Component - Header
 
-[] Component - Features
+[] Component - Features (svg)
 
-[] Component - Form
+[] Component - Blog
 
 [] Component - Footer
 
@@ -103,17 +108,28 @@ logo - https://tailwindui.com/img/logos/workflow-mark-on-white.svg
 
 ---
 
+[] Component - Form
+
 [] RWD
+
 [] 框架
 
 - Bootstrap
 - Tailwind
 - UI Library vs Functional CSS
 - Tailwind Demo - Boostrap Demo
-  [] 進階 CSS
+
+[] 進階 CSS
+
+- optimize
 
 [] SASS 練習
 
 - 如何練習
 - 累積作品
 - 接案作品
+
+[] 資源
+
+- youtube (國外-Acadmind, Traversity Media, Freecodecamp)
+- youtube (國內-六角，css 金魚，ithome 鐵人賽)
