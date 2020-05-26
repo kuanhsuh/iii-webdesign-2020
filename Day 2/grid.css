@@ -3,13 +3,13 @@
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
   .container {
     width: 750px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .container {
     width: 90%;
   }
@@ -17,32 +17,32 @@
 
 .row {
   display: flex;
+  margin: 0 -1rem;
   flex-wrap: wrap;
-  margin: 0 -0.5rem;
 }
 
 [class^="col-"] {
-  padding: 0 0.5rem;
+  padding: 0 1rem;
 }
 
 .col-md-4 {
-  width: 33.33%;
-}
-
-.col-md-3 {
-  width: 25%;
+  flex-basis: 33.33%;
 }
 
 .col-md-6 {
-  width: 50%;
+  flex-basis: 50%;
+}
+
+.col-md-3 {
+  flex-basis: 25%;
 }
 
 .col-md-12 {
-  width: 100%;
+  flex-basis: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   [class^="col-"] {
-    width: 100%
+    flex-basis: 100%;
   }
 }
