@@ -65,6 +65,9 @@ Web Design 101
 - Apple Design + Material Design
 - User Interface / User Experience -http://webdesigncourse.co/resources/data/course-e-book-website-v2.0.pdf
 
+Keynote
+https://docs.google.com/presentation/d/1BBdYTkcKfJdJHFPlkl3MQCC-dz3jowJ0b66ZPD5pxA8/edit?usp=sharing
+
 ### Day 2
 
 ---
